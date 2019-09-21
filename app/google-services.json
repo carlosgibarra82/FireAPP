@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "888371371142",
+    "firebase_url": "https://fireapp-d7bbf.firebaseio.com",
+    "project_id": "fireapp-d7bbf",
+    "storage_bucket": "fireapp-d7bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888371371142:android:9d9cac915f8b205fc58507",
+        "android_client_info": {
+          "package_name": "com.optic.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888371371142-ihhs42ma1m18ikebtpk4aj4c6cds7t68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optic.fireapp",
+            "certificate_hash": "4b173291c09334fdf4cc745d672e15f5552e6ded"
+          }
+        },
+        {
+          "client_id": "888371371142-uaps1g981s6fcg5f6q58r2kmfoviedo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnd3wtq3Kup3ziC--xJGDp1HIMBF_PJMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888371371142-uaps1g981s6fcg5f6q58r2kmfoviedo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

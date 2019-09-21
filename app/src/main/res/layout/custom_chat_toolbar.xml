@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageNameProfileChat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        app:civ_circle_background_color="@color/colorGray"
+        android:src="@mipmap/ic_user"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/textViewNameChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/circleImageNameProfileChat"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/circleImageNameProfileChat" />
+
+    <TextView
+        android:id="@+id/textViewLastTimeConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/circleImageNameProfileChat"
+        android:layout_below="@+id/textViewNameChat"
+        android:layout_toEndOf="@+id/circleImageNameProfileChat" />
+
+</RelativeLayout>

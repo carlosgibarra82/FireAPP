@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.EditActivity">
+
+    <include layout="@layout/action_bar_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/imageViewEditClient"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:src="@mipmap/ic_user"
+            app:civ_circle_background_color="#BEC4C4"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextLightGray"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextNameEditClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:inputType="textEmailAddress"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextLightGray"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextEmailEditClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextLightGray"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextPhoneEditClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefono"
+                android:inputType="numberDecimal"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnEditClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDITAR PERFIL"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="30dp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

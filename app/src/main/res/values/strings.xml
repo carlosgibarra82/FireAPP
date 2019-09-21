@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FireAPP</string>
+
+
+    <string name="google_directions_api">AIzaSyCMGUUuJiVCUNfh4iDvu5KNVmRbxNYzIzY</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
